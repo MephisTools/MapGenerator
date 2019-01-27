@@ -1,4 +1,4 @@
-#include <windows.h>
+#include "windows.h"
 
 DWORD WINAPI DllMain(HMODULE hModule, DWORD dwReason, LPVOID lpReserved)
 {
