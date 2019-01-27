@@ -1,20 +1,11 @@
-Common: Common.cpp
-	g++ Common.cpp -o Common.o
+main: main.cpp Common.o D2Map.o ArrayEx.o
+	g++ main.cpp Common.o D2Map.o ArrayEx.o -o main
 
-D2Map: D2Map.cpp
-	g++ D2Map.cpp -o D2Map.o
+Common.o: Common.cpp
+	g++  -w-c Common.cpp -o Common.o
 
-ArrayEx: ArrayEx.cpp
-	g++ ArrayEx.cpp -o ArrayEx.o
+D2Map.o: D2Map.cpp
+	g++ -w -c D2Map.cpp -o D2Map.o
 
-D2Map: D2Map.cpp
-	g++ D2Map.cpp -o D2Map.o
-
-D2Map: D2Map.cpp
-	g++ D2Map.cpp -o D2Map.o
-
-D2Map: D2Map.cpp
-	g++ D2Map.cpp -o D2Map.o
-
-D2Map: D2Map.cpp
-	g++ D2Map.cpp -o D2Map.o
+ArrayEx.o: ArrayEx.cpp
+	g++ -w -c ArrayEx.cpp -o ArrayEx.o
