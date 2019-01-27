@@ -1,0 +1,10 @@
+C:/Users/dell/Documents/Visual Studio 2010/Projects/Pathfinder/Pathfinder/bin/Debug/Pathfinder.exe
+C:/Users/dell/Documents/Visual Studio 2010/Projects/Pathfinder/Pathfinder/bin/Debug/Pathfinder.pdb
+C:/Users/dell/Documents/Visual Studio 2010/Projects/Pathfinder/Pathfinder/obj/x86/Debug/Pathfinder.exe
+C:/Users/dell/Documents/Visual Studio 2010/Projects/Pathfinder/Pathfinder/obj/x86/Debug/Pathfinder.pdb
+/home/louis/Downloads/Pathfinder/bin/Debug/Pathfinder.exe
+/home/louis/Downloads/Pathfinder/bin/Debug/Pathfinder.pdb
+/home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.csprojAssemblyReference.cache
+/home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.csproj.CoreCompileInputs.cache
+/home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.exe
+/home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.pdb
