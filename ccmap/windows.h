@@ -1,13 +1,9 @@
 #ifndef _WINDOWS_H
 #define _WINDOWS_H
 
+#include "windows/windef.h"
+
 #include <stdarg.h>
-
-
-typedef struct tagPOINT {
-  LONG x;
-  LONG y;
-} POINT, *PPOINT;
 
 #undef BOOL
 typedef int BOOL;
@@ -31,7 +27,6 @@ typedef void *PVOID,*LPVOID;
 typedef WCHAR *LPWSTR;
 typedef CHAR *LPSTR;
 typedef TCHAR *LPTSTR;
-
 
 
 #endif
