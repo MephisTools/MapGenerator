@@ -8,3 +8,9 @@ C:/Users/dell/Documents/Visual Studio 2010/Projects/Pathfinder/Pathfinder/obj/x8
 /home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.csproj.CoreCompileInputs.cache
 /home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.exe
 /home/louis/Downloads/Pathfinder/obj/x86/Debug/Pathfinder.pdb
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\bin\Debug\Pathfinder.exe
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\bin\Debug\Pathfinder.pdb
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\obj\x86\Debug\Pathfinder.csproj.CoreCompileInputs.cache
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\obj\x86\Debug\Pathfinder.exe
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\obj\x86\Debug\Pathfinder.pdb
+\\VBOXSVR\vms\share\MapGenerator\Pathfinder\obj\x86\Debug\Pathfinder.csprojAssemblyReference.cache

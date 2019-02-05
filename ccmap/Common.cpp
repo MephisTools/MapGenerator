@@ -149,15 +149,6 @@ POINT CalculatePointOnTrack(const POINT& ptOrigin, int nRadius, int nAngle)
 	return pt;
 }
 
-int min(int a, int b) {
-  return a > b ? b : a;
-}
-
-int max(int a, int b) {
-  return a > b ? a : b;
-}
-
-
 POINT CalculateRandomPosition(const POINT& ptOrigin, int nRadiusMin, int nRadiusMax, int nAngleMin/*=0*/, int nAngleMax/*=360*/)
 {
 	// Data validation

@@ -1,6 +1,6 @@
 #include "D2Map.h"
 
-#define D2_DIR L"C:\\Users\\dell\\Documents\\Diablo II 1.12\\"
+#define D2_DIR L"\\VBOXSVR\\vms\\share\\d2113c\\Diablo II"
 d2client_struct D2Client;
 
 VOID __stdcall ExceptionHandler(VOID);
@@ -115,12 +115,12 @@ extern "C" {
 
         D2Client.dwInit = 1;
         D2Client.fpInit = (DWORD)D2ClientInterface;
-        
+        /*
         FOG_10021("D2");
         FOG_10019("D2", (DWORD)ExceptionHandler, "D2", 1);
         FOG_10101(1, NULL);
         FOG_10089(1);
-        
+        */
         if (!FOG_10218()) 
 		{
             ExitProcess(NULL);

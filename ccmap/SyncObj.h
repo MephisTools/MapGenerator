@@ -7,7 +7,7 @@
 #ifndef __SYNCOBJ_H__
 #define __SYNCOBJ_H__
 
-#include "windows.h"
+#include <windows.h>
 #include <stdio.h>
 
 class CSyncObj  

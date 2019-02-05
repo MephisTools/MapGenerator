@@ -20,6 +20,7 @@ namespace Pathfinder
             }
             catch (Exception e)
             {
+                Console.WriteLine(e);
             }
 
             string foo = map_m.ToString();
@@ -32,10 +33,11 @@ namespace Pathfinder
             for (int lineIndex = 1; lineIndex < lines.Count; lineIndex++)
                 for (int charIndex = 0; charIndex < lines[lineIndex].Length; charIndex++)
                     map[charIndex, lineIndex - 1] = lines[lineIndex][charIndex];
-           
-            Point origin = new Point(int.Parse(lines[0].Split(',')[0]), int.Parse(lines[0].Split(',')[1]));
-            Pathfinder p = new Pathfinder(map, new Point(97,15), new Point(165,83), origin);
-            List<Point> path = p.getPath();
+
+           // var origin = new Point(0, 0);
+           Point origin = new Point(int.Parse(lines[0].Split(',')[0]), int.Parse(lines[0].Split(',')[1]));
+           Pathfinder p = new Pathfinder(map, new Point(97,15), new Point(165,83), origin);
+           List<Point> path = p.getPath();
 
             foreach (Point pt in path)
             {
@@ -53,14 +55,15 @@ namespace Pathfinder
             }
 
             File.WriteAllText(@"path.txt", s.ToString()); 
+            
         }
         //0x1B8E7001
-        [System.Runtime.InteropServices.DllImport(@"C:\Users\dell\Documents\Visual Studio 2010\Projects\Pathfinder\Debug\ccmap.dll",
+        [System.Runtime.InteropServices.DllImport(@"\\VBOXSVR\vms\share\MapGenerator\ccmap\Debug\ccmap.dll",
                 CharSet = CharSet.Ansi, 
                 CallingConvention = CallingConvention.StdCall)]
         public static extern void GetMap(int seed, int act, int level, StringBuilder map);
 
-        [System.Runtime.InteropServices.DllImport(@"C:\Users\dell\Documents\Visual Studio 2010\Projects\Pathfinder\Debug\ccmap.dll",
+        [System.Runtime.InteropServices.DllImport(@"\\VBOXSVR\vms\share\MapGenerator\ccmap\Debug\ccmap.dll",
                 CharSet = CharSet.Ansi,
                 CallingConvention = CallingConvention.StdCall)]
         public static extern void Init(); 
